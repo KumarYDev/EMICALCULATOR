@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loan Amount"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter amount here"
+        android:inputType="numberDecimal"
+        android:paddingTop="15dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate Of Interest"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Rate of Interest here"
+        android:inputType="numberDecimal"
+        android:paddingTop="15dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Months"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter total months here"
+        android:inputType="numberDecimal"
+        android:paddingTop="15dp" />
+
+    <Button
+        android:id="@+id/solve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:textSize="25dp" />
+
+</LinearLayout>
